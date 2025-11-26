@@ -22,16 +22,22 @@ c = a
 x = 20
 y = 50
 list = [3,5,23,30,20]
-if(x in list):
-    print( "x is in list" )
-else:
-    print("x is not in list" )
+# if(x in list):
+#     print( "x is in list" )
+# else:
+#     print("x is not in list" )
 
-if(x not in list):
-    print( "x is in list" )
-else:
-    print("x is not in list" )
+# if(x not in list):
+#     print( "x is in list" )
+# else:
+#     print("x is not in list" )
 
 #Ternary operator
-print(x if x>y else y)
+# print(x if x>y else y)
 
+#swapping
+a = 45
+b = 75
+
+a,b = b,a
+print(f" a is {a} and b is {b}")
